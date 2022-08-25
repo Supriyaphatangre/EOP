@@ -1,5 +1,5 @@
 import { Parallax } from 'react-parallax';
-import bg from "../Assets/e3.jpg";
+import bg from "../Assets/bg.png";
 const Header=()=>{
     return(
         <>

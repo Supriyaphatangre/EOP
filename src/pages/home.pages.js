@@ -2,10 +2,15 @@ import Lottie from "lottie-react";
 import anim1 from "../Animations/communication.json";
 import anim2 from "../Animations/systematic.json";
 import anim3 from "../Animations/enquiry.json";
+import Navbar from "../components/navbar.components";
+import Header from "../components/header.components";
 const Home=()=>{
     return(
         <>
-        <div class="container">
+         <Navbar/>
+         <Header/>
+        <div class="container ">
+          
   <div class="row">
     <div class="col">
     <Lottie animationData={anim1} loop={true}  />
@@ -21,7 +26,8 @@ const Home=()=>{
     </div>
     
   </div>
-</div>
+  </div>
+
 
 
   <div class="row">
